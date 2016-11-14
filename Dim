@@ -18,6 +18,7 @@ End If
 
 
 
+
 +++++++++++++++++++++++++++++++++++
 + TextBox1
 + TextBox2
@@ -27,3 +28,6 @@ End If
 +
 +
 +++++++++++++++++++++++++++++++++++++
+
+Dim Numero1 As Integer
+Numero1 = Integer.Parse(TextBox1.Text)
