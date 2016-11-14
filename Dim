@@ -10,6 +10,8 @@ title = "MsgBox Demonstration"   ' Define title.
 response = MsgBox(msg, style, title)
 If response = MsgBoxResult.Yes Then   ' User chose Yes.
    ' Perform some action.
+   MsgBox ("La respuesta fue Yes")
 Else
    ' Perform some other action.
+   MsgBox ("La respuesta fue No")
 End If
