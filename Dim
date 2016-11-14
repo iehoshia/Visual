@@ -15,3 +15,15 @@ Else
    ' Perform some other action.
    MsgBox ("La respuesta fue No")
 End If
+
+
+
++++++++++++++++++++++++++++++++++++
++ TextBox1
++ TextBox2
++ Button
++
++
++
++
++++++++++++++++++++++++++++++++++++++
