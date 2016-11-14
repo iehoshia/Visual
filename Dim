@@ -1,0 +1,15 @@
+Dim msg As String
+Dim title As String
+Dim style As MsgBoxStyle
+Dim response As MsgBoxResult
+msg = "Do you want to continue?"   ' Define message.
+style = MsgBoxStyle.DefaultButton2 Or _
+   MsgBoxStyle.Critical Or MsgBoxStyle.YesNo
+title = "MsgBox Demonstration"   ' Define title.
+' Display message.
+response = MsgBox(msg, style, title)
+If response = MsgBoxResult.Yes Then   ' User chose Yes.
+   ' Perform some action.
+Else
+   ' Perform some other action.
+End If
